@@ -2,4 +2,4 @@
 
 CSS + javascript + Jquery
 
-can be start with index.html, it needs live server
+can start with index.html, it needs live server
