@@ -1,0 +1,72 @@
+/* Margó és padding 0, fekete háttér*/
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+#gamearea {
+   margin-left: 500px;
+   margin-top: 100px;
+    width: 600px;
+    height: 600px;
+    border: solid gray 2px;
+    z-index: 1;
+}
+
+#demoDrag {
+    width: 140px; height: 140px;
+    background: red;
+    z-index: 2;
+}
+#demoDrag2 {
+
+    width: 140px; height: 140px;
+    background: white;
+    border-style: solid;
+    margin-top: 316px;
+    margin-left: 456px;
+    z-index: 1;
+}
+#demoDrag3 {
+    position: relative;
+     width: 140px; height: 140px;
+     background: red;
+    z-index: 3;
+
+ }
+#demoDrag4 {
+    position: relative;
+    width: 140px; height: 140px;
+    background: white;
+    border-style: solid;
+    margin-top: 316px;
+    margin-left: 456px;
+    z-index: 2;
+}
+#akadaly{
+    margin-top: 0px;
+    margin-left: 400px;
+    width: 2px;
+    height: 600px;
+    z-index: 1;
+    background-color: black;
+}
+#akadaly2{
+    margin-top: -700px;
+    margin-left: 600px;
+    width: 2px;
+    height: 600px;
+    z-index: 1;
+    background-color: black;
+}
+
+.ui-draggable-dragging {
+    cursor: move;
+}
+#demoDrag.dragging {
+    width:140px; height:140px; background:green;
+}
+#demoDrag3.dragging {
+    width:140px; height:140px; background:green;
+}
