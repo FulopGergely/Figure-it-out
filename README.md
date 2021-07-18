@@ -1,3 +1,3 @@
-# szamgraf
+# multimedia
 
-CSS + javascript
+CSS + javascript + Jquery
