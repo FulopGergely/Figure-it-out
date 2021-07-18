@@ -1,3 +1,3 @@
-# multimedia
+# multimedia - game
 
 CSS + javascript + Jquery
